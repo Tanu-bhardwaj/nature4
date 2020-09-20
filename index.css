@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1496196614460-48988a57fccf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+section {
+  width: 100vw;
+  height: 150vh;
+  float: left;
+  background-size: cover;
+}
+.content{
+  font-size: 24px;
+  text-align: center;
+	overflow: scroll;
+	width: 90%;
+	height: 750px;
+  margin-left: 5%;
+  margin-right: 5%;
+	position: absolute;
+	color: black;
+  margin-top: -34em;
+  background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+}
+.content::-webkit-scrollbar{
+  display: none;
+  }
+
+.heading-container{
+  width: 80%;
+  height: 80%;
+  margin: 100px auto;
+  position: relative;
+}
+.heading-container h1{
+  font-family: 'Karla', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 54px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+.user-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  float: left;
+  margin-right: 0.6em;
+}
+.author{
+  color: black;
+  font-size: 20px;
+}
+.date{
+  color: black;
+  margin-top: -1.5em;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.fa-heart-o{
+  color: black;
+  padding-left: 4em;
+  margin-right: 1em;
+
+}
+.follow{
+  border: 1.5px solid black;
+  border-radius: 4px;
+  color: black;
+  background: transparent;
+  padding: 2px 8px 2px 8px;
+}
+a{
+  float: right;
+}
+.fa-bookmark-o{
+  
+  color: black;
+  font-size: 14px;
+  margin-right: 0.5em;
+}
+.fa-facebook{
+
+  color: black;
+  font-size: 14px;
+  margin-right: 0.5em;
+}
+
+.fa-twitter{
+
+  color: black;
+  font-size: 14px;
+  margin-right: 0.5em;
+}
+.fa-share-alt{
+
+  color: black;
+  font-size: 14px;
+  margin-right: 0.5em;
+}
+.intro{
+  background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+
+}
